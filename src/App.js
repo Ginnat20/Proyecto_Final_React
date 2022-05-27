@@ -22,14 +22,14 @@ function App() {
         <Navbar/>  
 
           <Routes>
-            <Route path="/" element={<AboutGT />}/>
             <Route path="/about" element={<AboutGT />}/>
             <Route path="/skills" element={<SkillsGT/>}/>
             <Route path="/education" element={<EducationGT />}/>
             <Route path="/contact" element={<ContactGT 
-              nameOne="Aurelia Martinez"
-              nameTwo="aurimar@mail.com"
-              nameThree="Quiero trabajar con ustedes :D!"
+              nameZero="Ingrese nombre"
+              nameOne="Ingrese su correo electronico"
+              nameTwo="Ingrese el asunto"
+              nameThree="Ingrese el mensaje"
             />}/>
           </Routes>
         </BrowserRouter>
